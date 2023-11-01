@@ -1,4 +1,4 @@
-Add New Properties to a JavaScript Object
+/*Add New Properties to a JavaScript Object
 
 You can add new properties to existing JavaScript objects the same way you would modify them.
 
@@ -23,5 +23,19 @@ const ourDog = {
 
 ourDog.bark = "bow-wow";
 
-Add a bark property to myDog and set it to a dog sound, such as "woof". You may use either dot or bracket notation.
+Add a bark property to myDog and set it to a dog sound, such as "woof". You may use either dot or bracket notation.*/
 
+const myDog = {
+    "name": "Happy Coder",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["freeCodeCamp Campers"]
+};
+
+console.log(myDog);
+
+//myDog.bark = "woof";
+
+myDog["bark"] = "woof";
+
+console.log(myDog.bark); //woof
