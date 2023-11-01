@@ -38,8 +38,8 @@ const myDog = {
 
 // Only change code below this line
 
-console.log(myDog);
+//delete myDog["tails"];
 
-delete myDog.bark;
+delete myDog.tails;
 
-onsole.log(myDog.bark); //undefined
+console.log(myDog.tails); //undefined
